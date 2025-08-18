@@ -9,8 +9,8 @@ output/resume.docx: | $(OUTPUT_DIR) resume.md resume.css
 output/resume.html: | $(OUTPUT_DIR) resume.md resume.css
 	pandoc resume.md -o output/resume.html --css=resume.css --standalone
 
-$(OUTPUTDIR):
+$(OUTPUT_DIR):
 	mkdir $(OUTPUT_DIR)
 
-clean: output/*
-	rm -rf output/*
+clean: output
+	rm -rf output
