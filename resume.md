@@ -97,7 +97,7 @@ _September 2019 - December 2020_
 [PHLask](https://phlask.me/) is an application that aims to make
 finding free resources easier. We recently completed
 dev work on our v2 application that will allow people to search
-for water, foraging, food, and clothing
+for water, foraging, food, and clothing.
 
 ### PHL Code Club
 
