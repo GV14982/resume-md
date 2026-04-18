@@ -1,19 +1,4 @@
 /* Resume CSS for Pandoc + WeasyPrint */
-
-@font-face {
-  font-family: 'FiraCode';
-  src: url('https://github.com/ryanoasis/nerd-fonts/raw/refs/heads/master/patched-fonts/FiraCode/Regular/FiraCodeNerdFont-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'FiraCode';
-  src: url('https://github.com/ryanoasis/nerd-fonts/raw/refs/heads/master/patched-fonts/FiraCode/Bold/FiraCodeNerdFont-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 /* Page setup for print/PDF */
 @page {
   size: A4;
@@ -26,7 +11,7 @@
 }
 
 body {
-  font-family: "FiraCode";
+  font-family: "Jetbrains Mono Nerd Font";
   font-size: 8.5pt;
   line-height: 1.4;
   color: #000;
@@ -72,7 +57,7 @@ p {
 }
 
 /* Lists */
-body > ul:first-of-type {
+body>ul:first-of-type {
   display: flex;
   justify-content: space-evenly;
   list-style: none;
@@ -96,7 +81,7 @@ a:hover {
   margin-bottom: 4pt;
 }
 
-.experience-entry > ul {
+.experience-entry>ul {
   margin: 0;
 }
 
@@ -110,7 +95,7 @@ a:hover {
   text-align: right;
 }
 
-.job-date > p {
+.job-date>p {
   margin: 0;
 }
 
@@ -118,16 +103,18 @@ a:hover {
   font-size: 9.5pt;
 }
 
-.company > p {
+.company>p {
   margin: 0;
 }
 
 /* Strong emphasis */
-strong, b {
+strong,
+b {
   font-weight: bold;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -137,12 +124,12 @@ em, i {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-  
+
   /* Ensure proper spacing for print */
   h2 {
     page-break-after: avoid;
   }
-  
+
   .experience-entry {
     page-break-inside: avoid;
   }

@@ -1,19 +1,21 @@
 ---
 title: Graham Vasquez
+fontfamily: Jetbrains Mono Nerd Font
 ---
 
 - <span>󰋜 Philadelphia</span>
-- <span>[󰇮 graham@gvasquez.dev](mailto://graham@gvasquez.dev/)</span>
+- <span>[󰇮 graham@gvasquez.dev](mailto:graham@gvasquez.dev)</span>
 - <span>[󰌷 gvasquez.dev](https://gvasquez.dev/)</span>
 - <span>[󰊤 GitHub](https://github.com/gv14982/)</span>
 - <span>[󰌻 Linkedin](https://linkedin.com/in/graham-vasquez)</span>
 
 ---
 
-I am a senior software engineer from Philadelphia with a love of building
-things that make people's lives easier (Both users and other developers).
-From designing scalable APIs and managing deployments in Kubernetes,
-to building out dev tools and reducing friction in the SDLC.
+I am a principal software engineer from Philadelphia with a love of building
+things that make people's lives easier (both users and other developers).
+I take great satisfaction in solving tough problems, from designing scalable
+APIs and managing deployments in Kubernetes to building out dev tools and
+reducing friction in the SDLC.
 
 ## Experience
 
@@ -21,10 +23,26 @@ to building out dev tools and reducing friction in the SDLC.
 
 ::: {.experience-header}
 
+### Principal Software Engineer | Trend Health Partners
+
+::: {.job-date}
+_September 2025 - Current_
+:::
+:::
+
+- Owned our Go based document processing pipeline built on top of _ECS_, _SQS_, _Lambda_, and _RDS_ which processes **thousands** of large medical documents per day (often **tens of thousands** of pages per document).
+- Increased resiliency of main orchestration service by improving deduplication and mitigating invalid states that would stall document processing. This has resulted in a **50%** decrease in error rates and a **30%** decrease in duplicate work.
+- Designed and implemented an updated observability stack based on _OpenTelemetry_, _CloudWatch_ and _X-Ray_ resulting in faster response times to incidents and better understanding of the flow of documents in our system.
+
+:::
+::: {.experience-entry}
+
+::: {.experience-header}
+
 ### Senior Software Engineer | iHeartMedia
 
 ::: {.job-date}
-_March 2024 - Present_
+_March 2024 - September 2025_
 :::
 :::
 
@@ -73,69 +91,31 @@ _December 2020 - December 2021_
   improving platform stability and performance.
 
 :::
-::: {.experience-entry}
-::: {.experience-header}
-
-### Web Developer | ClickPopMedia
-
-::: {.job-date}
-_September 2019 - December 2020_
-:::
-:::
-
-- Built and maintained production applications using Docker, MySQL, Postgres, MongoDB,
-  Go, Laravel, NextJS, and jQuery.
-- Managed CI/CD pipelines with GitHub Actions and created deploy scripts for
-  Docker, VPS, and serverless providers including Digital Ocean, Linode, and Vercel.
-
-:::
 
 ## Volunteer
 
-### PHLask
-
-[PHLask](https://phlask.me/) is an application that aims to make
-finding free resources easier. We recently completed
-dev work on our v2 application that will allow people to search
-for water, foraging, food, and clothing.
-
 ### PHL Code Club
 
-I co-organize a monthly meetup in
-Philadelphia called [PHL Code Club](https://phlcode.club).
-Our focus is interactive sessions,
-but we also like to do project showcases or
-more traditional talks from time to time. It has
-been awesome to improve my communication
-and continue learning while building a
-community of like minded people. It has also given me
-opportunities to mentor and teach others individually.
+I co-founded a monthly meetup in Philadelphia called [PHL Code Club](https://phlcode.club).
+We focus on interactive sessions, programming challenges, and project showcases.
+Organizing these events has given me space to improve many nontechnical skills
+like mentorship, communication with stakeholders (Our sponsors), and managing
+expectations and feedback from a wide audience.
 
 ## Talks
 
-### Typesafe APIs powered by GraphQL
+### The Brain of the Modern Editor: Language Server Protocol
 
-Explained the basics of the syntax,
-type system, execution, and some
-pros and cons of GraphQL over other HTTP API types.
-Emphasized the ease of use when
-paired with code generation and the self documenting
-nature via introspection queries.
+Introduced the 5 W's of Language Server Protocol (LSP), namely what it is and why
+it exists. I gave a short introduction to JSON RPC and IPC to set a baseline for
+as the talk aimed to be accessible for all. I then walked through some example
+messages, diagrams of common interactions and built a super simplistic LSP client.
 
-### Gleam for Typescript Developers
+### Type-Safe APIs Powered by GraphQL
 
-Introduced the Gleam programming
-language as well as a short
-introduction to functional
-programming. Compared common
-patterns in Typescript with their
-Gleam counterparts.
-
-### Vim Motions: For Fun and Profit
-
-Presented the basics of vim motions, operators and marks.
-Then I did a short demo with a widget to show my keystrokes.
-Fielded a bunch of great questions about vim, text editing, and terminals in general.
+Explained the basics of the syntax, type system, execution, and some pros and
+cons of GraphQL over other types of HTTP APIs. Emphasized the ease of use when paired
+with code generation and the self documenting nature via introspection.
 
 ## Education
 
